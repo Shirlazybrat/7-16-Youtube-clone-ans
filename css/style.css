@@ -1,0 +1,136 @@
+body{
+
+}
+
+img{
+	/* images cannot be bigger than the parent */
+	max-width: 100%;
+}
+
+#youtube-wrapper{
+	/* set a gutter on both sides of the wrapper */
+	margin-left:40px;
+	margin-right: 40px;
+}
+
+#header{
+	/* set the height */
+	height:50px;
+	/* set the line height so that the text is vertically centerd */
+	line-height:50px;
+	border-bottom: 1px solid black;
+}
+
+#header h1{
+	font-size: 20px;
+}
+
+#logo{
+	width:20%;
+}
+
+#logo img{
+	max-width: 150px;
+	margin-top: 20px;
+}
+
+#logo, #search-nav, #account-container{
+	display:inline-block;
+}
+
+#search-nav{
+	width:50%;
+}
+
+/* #search-nav input[type="button"] {
+	width:200px;
+} */
+
+#search-container{
+	margin-bottom:15px;
+}
+#search-nav .search-text{
+	width: 40%;
+}
+
+#search-nav .search-button{
+	width: 10%;
+}
+
+#account-container{
+	width: 18%;
+}
+
+#nav{
+	border-bottom: 1px solid black;
+	padding: 10px 0px;
+}
+
+#nav-bar ul li{
+/* 	put all lis on the same side */
+	display:inline-block;
+	border-right: 1px solid black;
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration: underline; /* add a line nuder each li */
+}
+
+/* remove the border from the channel li */
+#nav-bar ul li:last-child{
+	border: none;
+	
+}
+#account-container{
+	width:18%;
+	text-align: right; /* no need to float */
+}
+
+#account-link ul li{
+	display: inline-block;
+	padding-right: 10px;
+	margin-top: 20px;
+}
+#featured-wrapper{
+	background-color: #cacaca;
+	padding: 0px 15px;
+}
+
+#featured-wrapper h2{
+	font-size: 18px;
+	/* margin on to and bottom of 10px leave right ang left alone */
+	margin: 10px auto;
+	width:70%;
+}
+
+#featured-wrapper, #featured, #secondary-videos{
+	display:inline-block;
+}
+
+#content{
+	margin: 20px;
+}
+
+.small-video{
+	border: 1px solid black;
+}
+
+#small-video, #small-video-text{
+	display:inline-block;
+}
+
+#right-rail-ad{
+	display:inline-block;
+	width:28%;
+	vertical-align: top;
+}
+
+#more-videos{
+	background-color: #cacaca;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.more-video-item{
+	display: inline-block;
+	width:24%;
+}
