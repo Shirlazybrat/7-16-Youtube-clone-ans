@@ -118,6 +118,11 @@ img{
 	display:inline-block;
 }
 
+#small-video-text{
+	padding: 5px;
+	text-align:right;
+}
+
 #right-rail-ad{
 	display:inline-block;
 	width:28%;
@@ -130,7 +135,21 @@ img{
 	margin-top: 20px;
 }
 
+@media screen and (min-width: 501px) and (max-width: 768px){
+	.more-video-item{
+		width:48%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.more-video-item{
+		width:90%;
+		margin: auto;
+	}
+}
+
 .more-video-item{
 	display: inline-block;
 	width:24%;
+	border: 1px solid black;
 }
